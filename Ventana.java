@@ -31,7 +31,7 @@ public class Ventana{
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);		
 		frame.getContentPane().setLayout(null);
 		
-		pant = new JTextField("0");
+		pant = new JTextField();
 		pant.setForeground(new Color(0, 0, 0));
 		pant.setBackground(new Color(255, 255, 255));
 		pant.setEditable(false);
